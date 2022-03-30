@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Gyehagi;
+  src: url(font/gyahegi.otf);
+}
+@font-face {
+  font-family: Sirukota;
+  src: url(font/Sirukota.ttf);
+}
+@font-face {
+  font-family: Bolzie;
+  src: url(font/Bolzie-Regular.ttf);
+}
+
+.navbar {
+  font-family: "Bolzie";
+  background: radial-gradient(#4a9e48, #37696c);
+}
+
+#deskripsi {
+  padding-top: 3cm;
+  padding-left: 1cm;
+  padding-bottom: 1rem;
+  font-family: "Bolzie";
+  font-size: large;
+  background: linear-gradient(#4a9e48, #448c54);
+}
+
+#mjb {
+  background: linear-gradient(#448c54, #3e7a60);
+}
+
+#pembayaran {
+  background: linear-gradient(#3e7a60, #37696c);
+}
+
+#distribusi {
+  background: linear-gradient(#37696c, #315778);
+}
+
+#fitur {
+  background: linear-gradient(#315778, #2b4584);
+}
+
+#mjb,
+#pembayaran,
+#distribusi,
+#fitur {
+  padding-top: 1cm;
+  padding-left: 1cm;
+  padding-bottom: 3rem;
+  font-family: "Bolzie";
+  font-size: large;
+}
+
+.row {
+  padding-top: 1cm;
+}
